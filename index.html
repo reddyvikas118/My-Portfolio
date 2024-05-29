@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="main-header__logo-container">
+            <div class="main-header__logo-img-cont">
+                <img src="https://res.cloudinary.com/da6t62p71/image/upload/v1716888215/Vikky_img_b4vdd3.jpg" alt="logo Image" class="main-header__logo-img" href="#home-hero" />
+            </div>
+            <h1 class="main-header__logo-text"> <strong>Vikas Reddy</strong></h1>
+        </div>
+        <nav class="main-header__navigation">
+            <ul class="main-header__navigation-links">
+                <li class="main-header__navigation-link"><a href="#home-hero"> Home </a></li>
+                <li class="main-header__navigation-link"><a href="#about"> About </a></li>
+                <li class="main-header__navigation-link">
+                    <a href="#projects"> Projects </a>
+                </li>
+                <li class="main-header__navigation-link"><a href="#contact"> Contact </a></li>
+            </ul>
+        </nav>
+        <div class="main-header__sm-scr-nav-btn">
+            <div class="main-header__sm-scr-nav-btn-line"></div>
+            <div class="main-header__sm-scr-nav-btn-line"></div>
+        </div>
+        <div class="main-header__sm-menu">
+            <div class="main-header__sm-menu-close">
+
+            </div>
+            <ul class="main-header__sm-menu-links">
+                <li>
+                    <a class="main-header__sm-menu-link main-header__sm-menu-link--1" name="home-hero">Home</a>
+                </li>
+
+                <li>
+                    <a class="main-header__sm-menu-link main-header__sm-menu-link--2" name="about">About</a>
+                </li>
+                <li>
+                    <a class="main-header__sm-menu-link main-header__sm-menu-link--3" name="projects">Projects</a>
+                </li>
+                <li>
+                    <a class="main-header__sm-menu-link main-header__sm-menu-link--4" name="contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <div class="themeClrSelector">
+        <input placeholder="Color Selector" type="color" value="#1DA1F2" class="themeClrSelector__input" />
+        <img alt="theme color tester" src="https://img.icons8.com/fluent/48/000000/rgb-circle-1.png" class="themeClrSelector__img" />
+    </div>
+
+    <section id="home-hero" class="home-hero">
+        <div class="home-hero__content">
+            <div class="home-hero__info">
+                <h1 class="heading-primary home-hero__heading-primary">
+                    <span class="heading-primary__sm"> Hello 👋</span>
+                    <span class="heading-primary__main">
+                        I'm Vikas Reddy! A full stack Web Developer Building Awesome Webapps And Websites That Powers The Internet
+                    </span>
+                </h1>
+                <button class="btn btn-theme home-hero__btn-theme">Projects</button>
+                <button class="btn btn-inv home-hero__btn-theme">Contact</button>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about main-section">
+        <div class="main-container">
+            <h2 class="heading-secondary projects__heading-secondary">
+                <span class="heading-secondary__sm"> About 🦄</span>
+                <span class="heading-secondary__main">
+                    Here you will find more information about me, what I do, and list of my current skills in programming
+            </h2>
+            <div class="main-section__content">
+                <div class="about__info">
+                    <div class="about__main-info">
+                        <h3 class="heading-quaternary about__heading-quaternary">
+                            My Story
+                        </h3>
+                        <p class="text-primary about__text-primary">
+                            <span>
+                                Hey! It's <strong>Vikas Reddy</strong>
+                                and I'm a <strong>full-stack Web Developer</strong> located in
+                                Hyderabad. I've done building
+                                projects and collaborated
+                                with talented people to create digital products
+                                for both business and consumer use.
+                                I'm a bit of a digital product junky. Over the year, I've used
+                                hundreds of web and mobile apps in different industries and
+                                verticals.
+                            </span>
+                            <span>
+                                Here! I build websites that solve real-world challenges. UI design, React, and HTML/CSS are my tools.
+                                As a full-stack developer, I bridge frontend and backend. My toolkit includes JavaScript, React, and HTML/CSS.
+
+                            </span>
+                        </p>
+                        <button class="btn btn-theme about__btn-theme">Projects</button>
+                    </div>
+                    <div class="about__skill-info">
+                        <h3 class="heading-quaternary about__heading-quaternary">
+                            My Skills
+                        </h3>
+                        <ul class="about__skills">
+                            <li class="about__skill">html</li>
+                            <li class="about__skill">css</li>
+                            <li class="about__skill">javascript</li>
+                            <li class="about__skill">react</li>
+                            <li class="about__skill">node</li>
+                            <li class="about__skill">git</li>
+                            <li class="about__skill">vscode</li>
+                            <li class="about__skill">Java</li>
+                            <li class="about__skill">Python</li>
+                            <li class="about__skill">SQL</li>
+                            <li class="about__skill">OOPS</li>
+                            <li class="about__skill">Data structures</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="skills-showcase">
+        <ul class="skills-showcase__list">
+            <li class="skills-showcase__list-item">
+                <i class="devicon-html5-plain"></i>
+            </li>
+            <li class="skills-showcase__list-item">
+                <i class="devicon-css3-plain"></i>
+            </li>
+            <li class="skills-showcase__list-item">
+                <i class="devicon-javascript-plain"></i>
+            </li>
+            <li class="skills-showcase__list-item">
+                <i class="devicon-react-original"></i>
+            </li>
+            <li class="skills-showcase__list-item">
+
+                <i class="devicon-java-plain-wordmark"></i>
+            </li>
+            <li class="skills-showcase__list-item">
+                <i class="devicon-nodejs-plain"></i>
+            </li>
+            <li class="skills-showcase__list-item">
+                <i class="devicon-git-plain"></i>
+            </li>
+
+            <li class="skills-showcase__list-item">
+                <i class="devicon-android-plain"></i>
+            </li>
+            <li class="skills-showcase__list-item">
+                <i class="devicon-python-plain"></i>
+            </li>
+        </ul>
+    </section>
+    <section id="projects" class="projects main-section">
+        <div class="main-container">
+            <h2 class="heading-secondary projects__heading-secondary">
+                <span class="heading-secondary__sm"> Projects 🛠️</span>
+                <span class="heading-secondary__main">
+                    Here you will find some of the personal projects that I created with the project details
+                </span>
+            </h2>
+            <div class="main-section__content">
+                <div class="projects__list">
+                    <div class="projects__list-item">
+                        <div class="projects__list-item-count">
+                            <span class="projects__list-item-count-num"> 1 </span>
+                            <span class="projects__list-item-count-line"> </span>
+                            <span class="projects__list-item-count-end-dot"> </span>
+                        </div>
+                        <div class="projects__list-item-details">
+                            <div class="projects__list-item-img-cont">
+                                <img src="https://res.cloudinary.com/da6t62p71/image/upload/v1716882068/wiki_qudwcx.jpg" alt="Project Image" class="projects__list-item-img" />
+                            </div>
+                            <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+                                Wikipedia
+                            </h3>
+
+                            <p class="text-primary projects__list-item-text-primary">
+                                <span>
+                                    Implemented Bootstrap components for Wikipedia, enhancing
+                                    mobile usability. Reduced load times by 15% through HTML
+                                    and CSS optimization.
+
+                                </span>
+                                <span>
+                                    Integrated JavaScript functionalities,
+                                    improving user engagement metrics.
+                                </span>
+                            </p>
+                            <button class="btn btn-theme projects__btn-theme">
+                                Live Link
+                            </button>
+                            <button class="btn btn-inv projects__btn-inv">Code Link</button>
+                        </div>
+                    </div>
+                    <div class="projects__list-item projects__list-item--inv">
+                        <div class="projects__list-item-details">
+                            <div class="projects__list-item-img-cont">
+                                <img src="https://res.cloudinary.com/da6t62p71/image/upload/v1716888227/to_do_ylg6o5.jpg" alt="project Image" class="projects__list-item-img" />
+                            </div>
+
+                            <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+                                To-do-list Application
+                            </h3>
+
+                            <p class="text-primary projects__list-item-text-primary">
+                                <span>
+                                    Created a mobile-friendly to-do list app using Bootstrap, ensuring
+                                    seamless user experience on all devices. Designed an attractive interface
+                                    with HTML5 and CSS3, optimizing page load times and enhancing visual
+                                    appeal.
+                                </span>
+                                <span>
+                                    Leveraged JavaScript for active task management, resulting in
+                                    improved user interactivity and 10% faster task completion.
+                                </span>
+                            </p>
+                            <button class="btn btn-theme projects__btn-theme">
+                                Live Link
+                            </button>
+                            <button class="btn btn-inv projects__btn-inv">Code Link</button>
+                        </div>
+                        <div class="projects__list-item-count">
+                            <span class="projects__list-item-count-num"> 2 </span>
+                            <span class="projects__list-item-count-line"> </span>
+                            <span class="projects__list-item-count-end-dot"> </span>
+                        </div>
+                    </div>
+                    <div class="projects__list-item">
+                        <div class="projects__list-item-count">
+                            <span class="projects__list-item-count-num"> 3 </span>
+                            <span class="projects__list-item-count-line"> </span>
+                            <span class="projects__list-item-count-end-dot"> </span>
+                        </div>
+                        <div class="projects__list-item-details">
+                            <div class="projects__list-item-img-cont">
+                                <img src="https://res.cloudinary.com/da6t62p71/image/upload/v1716888205/food_munch_tionmd.jpg" alt="Project Image" class="projects__list-item-img" />
+                            </div>
+                            <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+                                Food Munch
+                            </h3>
+
+                            <p class="text-primary projects__list-item-text-primary">
+                                <span>
+                                    Discover a wide range of mouthwatering breakfast options
+                                    at Food Munch. Start your day with our delectable dishes and
+                                    fuel up with the best food in town. 🍳🥞🍔
+                                </span>
+                                <span>
+
+                                </span>
+                            </p>
+                            <button class="btn btn-theme projects__btn-theme">
+                                Live Link
+                            </button>
+                            <button class="btn btn-inv projects__btn-inv">Code Link</button>
+                        </div>
+                    </div>
+                    <div class="projects__list-item projects__list-item--inv">
+                        <div class="projects__list-item-details">
+                            <div class="projects__list-item-img-cont">
+                                <img src="https://res.cloudinary.com/da6t62p71/image/upload/v1716888238/tourism_iu4wcg.jpg" alt="Project Image" class="projects__list-item-img" />
+                            </div>
+                            <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+                                Tourism
+                            </h3>
+
+                            <p class="text-primary projects__list-item-text-primary">
+                                <span>
+                                    Dive into recreation, culture, and local tips. From packing
+                                    essentials to public transport info, we’re your go-to resource
+                                    for an unforgettable journey!" 🌎✈📸🏨🌟
+                                </span>
+                            </p>
+                            <button class="btn btn-theme projects__btn-theme">
+                                Live Link
+                            </button>
+                            <button class="btn btn-inv projects__btn-inv">Code Link</button>
+                        </div>
+                        <div class="projects__list-item-count">
+                            <span class="projects__list-item-count-num"> 4 </span>
+                            <span class="projects__list-item-count-line"> </span>
+                            <span class="projects__list-item-count-end-dot"> </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact main-section">
+        <div class="main-container">
+            <h2 class="heading-secondary">
+                <span class="heading-secondary__sm"> Contact 📞</span>
+                <span class="heading-secondary__main">
+                    Feel free to Contact me by submitting the form below and I will get back to you as soon as possible
+                </span>
+            </h2>
+            <div class="main-section__content">
+                <div class="contact__form-cont">
+                    <form class="contact__form">
+                        <div class="contact__form-field">
+                            <label for="name" class="contact__form-field-label">Name</label>
+                            <input placeholder="Enter Your Name" type="text" class="contact__form-field-input" />
+                        </div>
+                        <div class="contact__form-field">
+                            <label for="name" class="contact__form-field-label">Email</label>
+                            <input placeholder="Enter Your Email" type="text" class="contact__form-field-input" />
+                        </div>
+                        <div class="contact__form-field">
+                            <label for="name" class="contact__form-field-label">Message</label>
+                            <textarea placeholder="Enter Your Message" name="message" id="" cols="30" rows="10" class="contact__form-field-input"></textarea>
+                        </div>
+                        <button type="submit" class="contact__form-submit">Submit</button>
+                    </form>
+                    <div class="contact__form-visual"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="main-footer">
+        <div class="main-footer__upper">
+            <div class="main-container">
+                <ul class="main-footer__links">
+                    <li class="main-footer__link">
+                        <a href="#home-hero">Home</a>
+                    </li>
+                    <li class="main-footer__link">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="main-footer__link">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="main-footer__link">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <div class="main-footer__mid-line"></div>
+                <div class="main-footer__socials">
+                    <a href="https://github.com/reddyvikas118/My-projects.git" class="main-footer__social-link">
+                        <img src="https://d33wubrfki0l68.cloudfront.net/5557d5a11584d7201a38ee1a95200f57a4cc0f88/15085/assets/png/github-ico.png" alt="" class="main-footer__social-link-icon" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/vikas-reddy-kommula-253929282" class="main-footer__social-link">
+                        <img src="https://d33wubrfki0l68.cloudfront.net/7f29579dde49e02480372aa49f7189c5536b0118/34b92/assets/png/linkedin-ico.png" alt="" class="main-footer__social-link-icon" />
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="main-footer__bottom">
+            <div class="main-container">
+                <p class="main-footer__bottom-txt">
+                    <a>Portfolio</a>
+                    <script>
+                        document.write(new Date().getFullYear())
+                    </script>. Made by
+                    <a href="#home-hero">vikas Reddy</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
